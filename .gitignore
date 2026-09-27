@@ -1,24 +1,50 @@
-# Logs
-logs
-*.log
+# ===== Environment Variables (NEVER commit secrets) =====
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+frontend/src/.env
+
+# ===== Node =====
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
+package-lock.json.bak
 
-node_modules
-dist
-dist-ssr
+# ===== Build Output =====
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# ===== Vite =====
+.vite/
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# ===== Logs =====
+logs/
+*.log
+
+# ===== OS Files =====
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== ngrok =====
+ngrok.yml
+ngrok.exe
+ngrok
+
+# ===== Misc =====
+*.tmp
+*.bak
+coverage/
