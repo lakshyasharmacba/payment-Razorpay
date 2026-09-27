@@ -88,7 +88,6 @@ export default function Checkout() {
       setLoading(false);
     }
   };
-
   return (
     <div style={{ padding: "40px", maxWidth: "450px", margin: "40px auto", fontFamily: "sans-serif" }}>
       <h2>Checkout Summary</h2>
