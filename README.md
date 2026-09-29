@@ -131,7 +131,7 @@ Copy the generated `https://xxxx.ngrok-free.dev` URL.
 
 | Field | Value |
 |---|---|
-| Card Number | `4111 1111 1111 1111` (domestic Visa test card) |
+| Card Number | `4100 2800 0000 1007` (domestic Visa test card) |
 | Expiry | Any future date, e.g. `12/30` |
 | CVV | Any 3 digits, e.g. `123` |
 | OTP | Any 4–10 random (non-repeating) digits |
